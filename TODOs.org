@@ -1,0 +1,10 @@
+* Build process improvements
+** DONE Use Scons for building?
+CLOSED: [2018-08-30 Thu 21:37]
+** TODO Setup CI so we can make sure the library is building on all platforms when we make changes
+** TODO Figure out how we can log from our library to Godot
+*** Our friend Tom describes how to do this for Unity/UE4 https://atomheartother.github.io/c++/2018/07/12/CPPDynLib.html
+
+To keep it cross platform, the API needs to work through only function calls and passing common primitives like characters, strings, and integers
+
+I think it may make sense to have it work similarly to a REST API, where objects in the C++ lib are addressed by ids or keys
