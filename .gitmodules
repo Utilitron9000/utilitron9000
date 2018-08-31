@@ -1,0 +1,6 @@
+[submodule "engineConnectors/utilitron9000GD"]
+	path = engineConnectors/utilitron9000GD
+	url = https://github.com/Utilitron9000/utilitron9000GD.git
+[submodule "engineConnectors/godot_headers"]
+	path = engineConnectors/godot_headers
+	url = https://github.com/GodotNativeTools/godot_headers.git
